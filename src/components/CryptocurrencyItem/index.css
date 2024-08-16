@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.crypto-info {
+  list-style-type: none;
+  padding: 0rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coin-info-cont {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.currency-logo {
+  height: 3rem;
+  width: 3rem;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.currency-name {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 400;
+}
+
+.currency-cont {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+}

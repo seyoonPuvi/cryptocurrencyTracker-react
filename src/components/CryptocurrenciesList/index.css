@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.crypto-list-cont {
+  width: 90%;
+  border: 5px solid #00e7ff;
+  border-radius: 1rem;
+}
+
+.crypto-nav-cont {
+  background-color: #092e33;
+  padding: 0rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 40%;
+}
+
+.heading {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  flex-basis: 20%;
+}
+
+.crypto-info-cont {
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.cointype {
+  flex-basis: 50%;
+}
